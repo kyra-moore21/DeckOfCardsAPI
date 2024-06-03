@@ -1,6 +1,7 @@
 # place custom files here you want to ignore (such as Secret.cs or Secret.ts)
 Secret.cs
 secret.cs
+DeckID.cs
 # Created by https://www.toptal.com/developers/gitignore/api/csharp,angular,visualstudio,visualstudiocode,macos,windows,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=csharp,angular,visualstudio,visualstudiocode,macos,windows,linux
 
