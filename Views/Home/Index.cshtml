@@ -1,0 +1,26 @@
+﻿@model CardsModel
+
+<div class="card-group">
+
+    @{ 
+        foreach (Card c  in Model.cards)
+        {
+            <div class="card">
+            <img class="card-img-top" src="@c.image" />
+            <div class="card-body">
+            <h5 class="card-title">@c.value OF @c.suit</h5>
+            <form>
+                    <p card="card-text"><input type="checkbox" /> Keep? </p>
+            </form>
+            </div>
+            </div>
+            
+        }
+    }
+</div>
+
+<form>
+    <label for="draw">Draw 5 more cards?</label>
+    <button type="submit" id="draw" name="draw" asp-action="Index">Draw</button>
+</form>
+
